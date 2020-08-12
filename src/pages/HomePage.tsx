@@ -21,7 +21,7 @@ function HomePage() {
                     >
                         github
                     </a>
-                    < FaGithub size={"calc(10px + 1.5vmin)"} />
+                    < FaGithub size={"calc(10px + 1.5vmin)"} className="link-icon" />
                 </div>
                 <div className="page-row">
                     <a
@@ -32,7 +32,7 @@ function HomePage() {
                     >
                         linkedin
                     </a>
-                    < FaLinkedinIn size={"calc(10px + 1.5vmin)"} />
+                    < FaLinkedinIn size={"calc(10px + 1.5vmin)"} className="link-icon" />
                 </div>
                 <div className="page-row">
                     <a
@@ -43,7 +43,7 @@ function HomePage() {
                     >
                         fiverr
                     </a>
-                    < FaCommentsDollar size={"calc(10px + 1.5vmin)"} />
+                    < FaCommentsDollar size={"calc(10px + 1.5vmin)"} className="link-icon" />
                 </div>
             </header>
         </div>

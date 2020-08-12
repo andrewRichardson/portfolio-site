@@ -34,6 +34,23 @@
   align-items: center;
   justify-content: center;
   width: 100%;
+  transition: padding 0.5s;
+}
+
+.page-row:hover {
+  padding: 1vmin 0;
+}
+
+.page-row .link-icon {
+  opacity: 0;
+}
+
+.page-row .link-icon {
+  transition: opacity 0.5s;
+}
+
+.page-row:hover .link-icon {
+  opacity: 100%;
 }
 
 .page-row a {
